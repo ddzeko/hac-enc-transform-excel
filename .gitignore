@@ -1,0 +1,17 @@
+# Dots, Backups etc.
+.*
+*~
+!.gitignore
+!.gitattributes
+
+# Python artifacts
+__pycache__/
+__pycache__/*
+venv/
+venv/*
+
+# Working files
+*.xlsx
+*.sqlite
+*.real.sh
+*.db
