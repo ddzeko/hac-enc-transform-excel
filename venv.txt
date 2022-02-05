@@ -1,0 +1,9 @@
+# how our venv structure was brought up
+# and how to run the script on a freshly
+# cloned project
+
+python3 -m venv venv/
+. ./venv/bin/activate
+pip install -r requirements.txt
+./run.real.sh
+deactivate
