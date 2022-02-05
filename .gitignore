@@ -15,3 +15,11 @@ venv/*
 *.sqlite
 *.real.sh
 *.db
+
+# Potentially sensitive
+*.json
+*.log
+*.csv
+
+# Explicitly allowed
+!autocesta_ulazi_izlazi.csv
